@@ -58,9 +58,16 @@ The task data model will consist of the following properties:
 
 - `due`: An optional due date for the task.
 
-## Deployment
+## Tutorial Run
 
-The Task Management App can be deployed on a hosting platform like Heroku or Netlify for the frontend, and a service like AWS, Azure, or DigitalOcean for the backend.
+in frontend
+1. `npm install`
+2. `npm start`
+
+in backend
+1. `npm init -y`
+2. `npm install`
+3. `npx nodemon server.js`
 
 ## Conclusion
 
