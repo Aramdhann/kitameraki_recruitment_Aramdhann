@@ -30,23 +30,21 @@ The technology stack for building the Task Management App includes:
 
 The frontend will be built using React.js. It will consist of the following components:
 
-1. **TaskForm**: A form component to add and update tasks.
+1. **EditTask**: A form component to add and update tasks.
 
 2. **TaskList**: A component to display the list of tasks.
-
-3. **TaskItem**: A component to represent an individual task in the list.
 
 ## Backend Implementation
 
 The backend will be developed using Node.js. It will include the following routes:
 
-1. **GET /tasks**: Fetches all tasks from the backend and returns them as JSON.
+1. **GET /**: Fetches all tasks from the backend and returns them as JSON.
 
-2. **POST /tasks**: Adds a new task to the backend.
+2. **POST /createTask**: Adds a new task to the backend.
 
-3. **PUT /tasks/:taskId**: Updates an existing task identified by its ID.
+3. **PUT /editTask/:id**: Updates an existing task identified by its ID.
 
-4. **DELETE /tasks/:taskId**: Deletes a task with the specified ID.
+4. **DELETE /:id**: Deletes a task with the specified ID.
 
 ## Data Model
 
@@ -58,7 +56,7 @@ The task data model will consist of the following properties:
 
 - `description`: A brief description of the task.
 
-- `dueDate`: An optional due date for the task.
+- `due`: An optional due date for the task.
 
 ## Deployment
 
