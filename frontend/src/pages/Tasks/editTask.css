@@ -1,0 +1,54 @@
+.modal {
+  padding: 2rem;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1rem;
+  position: absolute;
+  background-color: greenyellow;
+  z-index: 9;
+  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modal button {
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  transition: 0.2s ease-in filter;
+  cursor: pointer;
+}
+.modal button:hover {
+  filter: brightness(90%);
+}
+.nav-back-btn {
+  margin-top: 3rem;
+}
+.close-btn {
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.hide-modal {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .modal {
+    font-size: 1.5rem;
+  }
+}
+
+.edit-page {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.input-container {
+    width: 50rem;
+    margin-top: 1rem;
+}

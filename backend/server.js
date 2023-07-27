@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Routes
-// app.use('tasks', require('./routes/tasks'));
+// app.use('/tasks', require('./routes/tasks'));
 app.use(tasksRoutes);
 
 app.listen(port, () => {
